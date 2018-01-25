@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  date: 2018-01-24
+  are_good: MyText
+  are_bad: MyText
+  anything_else: MyText
+
+two:
+  title: MyString
+  date: 2018-01-24
+  are_good: MyText
+  are_bad: MyText
+  anything_else: MyText
