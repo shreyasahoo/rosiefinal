@@ -1,7 +1,7 @@
 class JournalsController < ApplicationController
 before_action :find_journal, only: [:show, :edit, :update, :destroy]
 	def index 
-		@journals = Journal.all.order("created_at DESC")
+		@journals = Journal.where(user_id:current_user)
 	end 
 
 	def create
