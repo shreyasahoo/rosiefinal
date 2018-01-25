@@ -5,7 +5,7 @@ before_action :find_journal, only: [:show, :edit, :update, :destroy]
 	end 
 
 	def create
-		@journal = Journal.new(journal_params)
+		@journal = current_user.journals.build(journal_params)
 		if @journal.save
 			redirect_to @journal
 		else
@@ -15,7 +15,7 @@ before_action :find_journal, only: [:show, :edit, :update, :destroy]
 	end
 
 	def new
-		@journal = Journal.new
+		@journal = current_user.journals.build
 	end
 
 	def destroy
