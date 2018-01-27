@@ -2,8 +2,6 @@ Rosie was inspired by an article I read recently about the positive effects of j
 
 I wnted to create a journal-like application that allows users to write about their day. Originally, I wanted to make it more accessible / interactive by having users directly talk about their day instead of typing it out, but because I am learning Rails for the first time, I'll save that for a future update!
 
-
-
 I started out this application by creating a design on Figma. I wanted to use bright colors, so I chose the color scheme of shades of yellow, orange, and blue. I watched and read several tutorials about Rails and various gems when I was creating Rosie.
 
 This is the home page.
@@ -22,7 +20,6 @@ By clicking new journal or new journal entry, users are brought to this page whe
 ![alt text](images/new_entry1.png)
 ![alt text](images/new_entry2.png)
 
-<<<<<<< HEAD
 The new entry will be featured on the home page. 
 ![alt text](images/all_entries.png)
 
@@ -39,4 +36,3 @@ The new entry will be featured on the Home page.
 
 Users can also edit and delete entries. 
 ![alt text](images/edit.png)
->>>>>>> 7bfddf6c8392d35bf5c228cfbeb2d4e0021ff3ba
