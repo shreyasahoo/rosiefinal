@@ -30,9 +30,3 @@ Users can also edit and delete entries.
 ![alt text](images/edit_entries1.png)
 ![alt text](images/edit_entries2.png)
 ![alt text](images/delete.png)
-=======
-The new entry will be featured on the Home page. 
-![alt text](images/all_entries.png)
-
-Users can also edit and delete entries. 
-![alt text](images/edit.png)
