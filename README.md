@@ -1,8 +1,8 @@
-Rosie was inspired by an article I read recently about the positive effects of journaling. (http://www.huffingtonpost.ca/2017/06/20/benefits-of-journaling_n_17212154.html) Studies have shown the connection between writing and mental health, so I thought it would be interesting to try making a journal application. 
+Rosie was inspired by an article I read recently about the positive effects of journaling. (http://www.huffingtonpost.ca/2017/06/20/benefits-of-journaling_n_17212154.html)
 
-I wnted to create a journal-like application that allows users to write about their day. Originally, I wanted to make it more accessible / interactive by having users directly talk about their day instead of typing it out, but because I am learning Rails for the first time, I'll save that for a future update!
+I wnted to create a journal-like application that allows users to write about their day.
 
-I started out this application by creating a design on Figma. I wanted to use bright colors, so I chose the color scheme of shades of yellow, orange, and blue. I watched and read several tutorials about Rails and various gems when I was creating Rosie.
+I started out this application by creating a simple design on Figma. I wanted to use bright colors, so I chose the color scheme of shades of yellow, orange, and blue. I watched and read several tutorials about the basics of Rails and various gems when I was creating Rosie.
 
 This is the home page.
 ![alt text](images/home.png)
