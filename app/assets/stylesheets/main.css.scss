@@ -1,28 +1,6 @@
-@mixin bold_font {
-  font-family: "Brandon Grotesque","Helvetica Neue", Helvetica, sans-serif;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-* {
-  box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-}
-
 body {
   padding-top: 4.5rem;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
-}
-
-.wrapper {
-  width: 80%;
-  margin: 0 auto;
-}
-
-.wrapper_with_padding {
-  width: 80%;
-  margin: 0 auto;
-  padding: 3.5rem 0;
 }
 
 

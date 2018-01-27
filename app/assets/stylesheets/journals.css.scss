@@ -6,6 +6,10 @@ h2 {
 	color: #303C6C;
 }
 
+h1 {
+		color: #F4976C;
+	}
+
 /* Wrapper for No entries section. */
 
 #index_wrap {
@@ -27,6 +31,10 @@ h2 {
 			color: white;
 			margin: 0;
 			letter-spacing: 1px;
+		}
+		.date {
+			color: white;
+			font-style: italic;
 		}
 	}
 }
@@ -66,6 +74,14 @@ h2 {
   .links {
   	text-align: center;
   }
+}
+
+/* For edit entry page. */
+#edit {
+	h1 {
+		font-size: 40px;
+	}
+
 }
 
 
