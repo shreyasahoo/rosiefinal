@@ -1,0 +1,34 @@
+<!-- Home page for logged in users to see journal entries. -->
+
+<!DOCTYPE html>
+<html>
+
+<body>
+	<div id="journals">
+	  
+	  <% unless @journals.blank? %>
+	    <% @journals.each do |journal| %>
+	      <a href="<%= (url_for [journal]) %>">
+	        <div class="journal">
+	          <p class="title">
+	            <%= journal.title %>
+	          </p>
+	          <p class="date">
+	            <%= time_ago_in_words(journal.created_at) %>
+	          </p>
+	        </div>
+	      </a>
+	    <% end %>
+
+	  <% else %>
+	  	<div id = 'index_wrap'>
+	    <h2>Add a Journal Entry</h2>
+	    <p>Write your first journal entry!</p>
+	    <button>
+	      <%= link_to "New Journal Entry", new_journal_path %>
+	    </button>
+	  <% end %>
+	  	</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<div class = 'journal_wrap'>
+	<h1>
+	  <%= @journal.title %>
+	</h1>
+	<p id = 'date'>
+	  <%= @journal.date %>
+	</p>
+	<p>
+	  <%= @journal.are_good %>
+	</p>
+	<p>
+	  <%= @journal.are_bad %>
+	</p>
+	<p>
+	  <%= @journal.anything_else %>
+	</p>
+	<div class = 'links'>
+
+	<button> <%= link_to "All Journal Entries", journals_path %> </button>
+	<button> <%= link_to "Edit", edit_journal_path(@journal) %> </button>
+	<button> <%= link_to "Delete", journal_path(@journal), method: :delete, data: {confirm: "Are you sure you would like to delete this entry?"} %> </button>
+	</div>
+</div>
+</body>
+</html>

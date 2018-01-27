@@ -1,0 +1,50 @@
+// Place all the styles related to the Welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+
+#logo {
+	color: #F4976C;
+}
+
+body {
+	font-family: 'Roboto Slab', serif;
+   	background: #FBE8A6;
+   	text-align: center;
+}
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 80px; 
+
+}
+
+p {
+	font-family: 'Roboto Slab', serif;
+	color: #303C6C;
+}
+
+button, .button {
+  border: none;
+  outline: none;
+  background: #B4DFE5;
+  padding: 1rem 3.5rem;
+  border-radius: 2rem;
+  a {
+    color: #303C6C;
+    text-decoration: none;
+  }
+
+}
+
+
+.logo_content {
+    padding: 5% 0;
+}
+
+.rosie_logo {
+    padding: 10% 0;
+}

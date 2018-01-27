@@ -1,16 +1,35 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
     <title>Rosie</title>
     <%= csrf_meta_tags %>
-
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-
   <body>
-	  <p class="notice"><%= notice %></p>
-	  <p class="alert"><%= alert %></p>
+    <header>
+      <div class="header_inner">
+        <nav>
+          <% if user_signed_in? %>
+            <%= link_to "Home", journals_path %>
+            <%= link_to "New Journal", new_journal_path %>
+            <%= link_to "Sign Out", destroy_user_session_path, method: :delete %>
+          <% else %>
+            <%= link_to "Home", welcome_index_path   %>
+            <%= link_to "Log In", new_user_session_path %>
+          <% end %>
+        </nav>
+      </div>
+    </header>
+    <p class="notice">
+      <%= notice %>
+    </p>
+    <p class="alert">
+      <%= alert %>
+    </p>
     <%= yield %>
   </body>
 </html>
+
+

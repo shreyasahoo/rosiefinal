@@ -1,0 +1,71 @@
+// Place all the styles related to the Journals controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+h2 {
+	color: #303C6C;
+}
+
+/* Wrapper for No entries section. */
+
+#index_wrap {
+	padding: 10% 0;
+}
+
+/* Style for all journal entries section. */
+#journals {
+	padding: 5% 0;
+	.journal {
+		background: #F4976C;
+		width: 30%;
+		min-height: 150px;
+		margin: 1rem 1%;
+		padding: 1.5rem 2.5%;
+		float: left;
+		position: relative;
+		.title {
+			color: white;
+			margin: 0;
+			letter-spacing: 1px;
+		}
+	}
+}
+
+/* Style for new entries. */
+.new_entry {
+	padding: 1.5rem 2.5%;
+	width: 60%;
+	margin: 0 auto;
+	h1 {
+		font-size: 50px;
+		color: #F4976C;
+	}
+}
+
+/* Creates a white box for journal entry page. */
+.journal_wrap {
+  padding: 10px;
+  width: 800px;
+  background-color: white;
+  color: #F4976C;
+  font-size: .5 rem; ;
+  margin: 0 auto 10px;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  text-align: left;
+  h1 {
+  	font-size: 50px;
+  	text-align: center;
+  }
+    #date {
+  	text-align: center;
+  	font-style: italic;
+  }
+
+  .links {
+  	text-align: center;
+  }
+}
+
+
